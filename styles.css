@@ -1,0 +1,170 @@
+/* UUID: 265202-564019-309057-450859- */ 
+
+html {
+    margin: auto;
+    width: min-content;
+}
+body {
+    margin: 0;
+    width: min-content;
+}
+button, input, optgroup, select, textarea {
+  margin: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input {
+  line-height: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.viewport {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.element {
+  cursor: default;
+  position: absolute;
+  overflow: hidden;
+}
+
+.element * {
+  vector-effect: non-scaling-stroke;
+}
+
+.wordwrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#button_text, #label_text {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body, input, button, select, textarea {
+  font-family: proxima_nova, Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.element.fc.Button .btn {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+  background-size: 100%;
+  cursor: inherit;
+}
+
+.element.fc.Label {
+  border-style: none;
+}
+
+.element.fc.Label .label-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.element.fc.Label .label.wordwrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  word-break: break-word;
+  border-radius: 0px;
+}
+
+.element.fc.Label .label {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-weight: normal;
+}
+
+.element.fc.Screen {
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 6px;
+  background-size: cover;
+  overflow: visible;
+}
+
+.snapp-html5.fc.Screen {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  display: none;
+  transform: none !important;
+}
